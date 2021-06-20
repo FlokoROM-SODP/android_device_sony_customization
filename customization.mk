@@ -25,3 +25,6 @@ CUST_PATH := device/sony/customization
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
 include $(CUST_PATH)/LineageOS/customization.mk
+
+PRODUCT_SOONG_NAMESPACES += \
+    packages/apps/Bluetooth

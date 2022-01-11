@@ -17,8 +17,6 @@
 
 TARGET_GAPPS_ARCH := arm64
 
-TARGET_KERNEL_HEADERS := kernel/sony/msm-4.14/kernel
-
 CUST_PATH := device/sony/customization
 
 # Updatable Apex
